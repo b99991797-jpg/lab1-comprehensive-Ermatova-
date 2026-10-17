@@ -1,6 +1,4 @@
-   import os
-
-   def calculate_discount(price, discount_rate):
-       # Эта строка специально сделана очень длинной, чтобы нарушить правило max-line-length = 80 в файле .flake8
-       final_price = price - (price * discount_rate)
-       return final_price
+def calculate_discount(price, discount_rate):
+    # Короткий комментарий, укладывается в 80 символов
+    final_price = price - (price * discount_rate)
+    return final_price
